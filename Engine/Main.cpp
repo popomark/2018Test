@@ -74,6 +74,9 @@ int WINAPI wWinMain( HINSTANCE hInst,HINSTANCE,LPWSTR pArgs,INT )
 		MessageBox( nullptr,L"\n\nException caught at main window creation.",
 			L"Unhandled Non-STL Exception",MB_OK );
 	}
+
 	//MasterMark
 	return 0;
 }
+
+//BranchBS
